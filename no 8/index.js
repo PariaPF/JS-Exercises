@@ -13,4 +13,4 @@ const maxFunction = (num1, num2, num3) => {
   return maxNum;
 };
 
-console.log(maxFunction(-2, 0, 1 / 4));
+console.log(maxFunction(-45.5, 31, 78 / 3));

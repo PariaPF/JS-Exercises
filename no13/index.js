@@ -20,14 +20,8 @@ readline.on("line", (input) => {
 function myFunction(input) {
   // WRITE YOUR CODE HERE USING INPUT
   const rightStreets = list[1].split(` `);
-  const rightStreetsNumber = Number(list[0][0]);
-  const roundStreetsNumber = Number(list[0][2]);
 
-  for (let i = 0; i < rightStreetsNumber; i++) {
-    rightStreets[i] = Number(rightStreets[i]);
-  }
-
-  if (rightStreets.includes(0) === true && rightStreets.includes(1) === true) {
+  if (rightStreets.includes(`0`) && rightStreets.includes(`1`)) {
     console.log(`YES`);
   } else {
     console.log(`NO`);
